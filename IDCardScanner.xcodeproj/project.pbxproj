@@ -13,6 +13,18 @@
 		92203A7A2AD574230011268C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92203A782AD574230011268C /* Main.storyboard */; };
 		92203A7C2AD574240011268C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92203A7B2AD574240011268C /* Assets.xcassets */; };
 		92203A7F2AD574240011268C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92203A7D2AD574240011268C /* LaunchScreen.storyboard */; };
+		92203A932AD5768C0011268C /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A8D2AD5768C0011268C /* HistoryTableViewCell.swift */; };
+		92203A942AD5768C0011268C /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A8E2AD5768C0011268C /* ScanView.swift */; };
+		92203A952AD5768C0011268C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A8F2AD5768C0011268C /* CircleButton.swift */; };
+		92203A962AD5768C0011268C /* StatementLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A902AD5768C0011268C /* StatementLabel.swift */; };
+		92203A972AD5768C0011268C /* ShowInfoImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A912AD5768C0011268C /* ShowInfoImageTableViewCell.swift */; };
+		92203A982AD5768C0011268C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A922AD5768C0011268C /* RoundedButton.swift */; };
+		92203AA12AD578160011268C /* CardDetectionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A9B2AD578160011268C /* CardDetectionUtility.swift */; };
+		92203AA22AD578160011268C /* FaceDetectionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A9C2AD578160011268C /* FaceDetectionUtility.swift */; };
+		92203AA32AD578160011268C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A9D2AD578160011268C /* Utilities.swift */; };
+		92203AA42AD578160011268C /* DetectionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A9E2AD578160011268C /* DetectionUtility.swift */; };
+		92203AA52AD578160011268C /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203A9F2AD578160011268C /* ImageUtils.swift */; };
+		92203AA62AD578160011268C /* OCRUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203AA02AD578160011268C /* OCRUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		92203A7B2AD574240011268C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92203A7E2AD574240011268C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92203A802AD574240011268C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92203A8D2AD5768C0011268C /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		92203A8E2AD5768C0011268C /* ScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		92203A8F2AD5768C0011268C /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		92203A902AD5768C0011268C /* StatementLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementLabel.swift; sourceTree = "<group>"; };
+		92203A912AD5768C0011268C /* ShowInfoImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowInfoImageTableViewCell.swift; sourceTree = "<group>"; };
+		92203A922AD5768C0011268C /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		92203A9B2AD578160011268C /* CardDetectionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetectionUtility.swift; sourceTree = "<group>"; };
+		92203A9C2AD578160011268C /* FaceDetectionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionUtility.swift; sourceTree = "<group>"; };
+		92203A9D2AD578160011268C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		92203A9E2AD578160011268C /* DetectionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionUtility.swift; sourceTree = "<group>"; };
+		92203A9F2AD578160011268C /* ImageUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		92203AA02AD578160011268C /* OCRUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,8 @@
 		92203A712AD574230011268C /* IDCardScanner */ = {
 			isa = PBXGroup;
 			children = (
+				92203A9A2AD578160011268C /* Utility */,
+				92203A8C2AD5768C0011268C /* UIKit */,
 				92203A722AD574230011268C /* AppDelegate.swift */,
 				92203A742AD574230011268C /* SceneDelegate.swift */,
 				92203A762AD574230011268C /* ViewController.swift */,
@@ -65,6 +91,32 @@
 				92203A802AD574240011268C /* Info.plist */,
 			);
 			path = IDCardScanner;
+			sourceTree = "<group>";
+		};
+		92203A8C2AD5768C0011268C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				92203A8D2AD5768C0011268C /* HistoryTableViewCell.swift */,
+				92203A8E2AD5768C0011268C /* ScanView.swift */,
+				92203A8F2AD5768C0011268C /* CircleButton.swift */,
+				92203A902AD5768C0011268C /* StatementLabel.swift */,
+				92203A912AD5768C0011268C /* ShowInfoImageTableViewCell.swift */,
+				92203A922AD5768C0011268C /* RoundedButton.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		92203A9A2AD578160011268C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				92203A9B2AD578160011268C /* CardDetectionUtility.swift */,
+				92203A9C2AD578160011268C /* FaceDetectionUtility.swift */,
+				92203A9D2AD578160011268C /* Utilities.swift */,
+				92203A9E2AD578160011268C /* DetectionUtility.swift */,
+				92203A9F2AD578160011268C /* ImageUtils.swift */,
+				92203AA02AD578160011268C /* OCRUtility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +192,19 @@
 			files = (
 				92203A772AD574230011268C /* ViewController.swift in Sources */,
 				92203A732AD574230011268C /* AppDelegate.swift in Sources */,
+				92203AA62AD578160011268C /* OCRUtility.swift in Sources */,
+				92203AA42AD578160011268C /* DetectionUtility.swift in Sources */,
+				92203A962AD5768C0011268C /* StatementLabel.swift in Sources */,
+				92203AA22AD578160011268C /* FaceDetectionUtility.swift in Sources */,
+				92203A942AD5768C0011268C /* ScanView.swift in Sources */,
+				92203A982AD5768C0011268C /* RoundedButton.swift in Sources */,
+				92203AA32AD578160011268C /* Utilities.swift in Sources */,
+				92203A972AD5768C0011268C /* ShowInfoImageTableViewCell.swift in Sources */,
+				92203A952AD5768C0011268C /* CircleButton.swift in Sources */,
+				92203A932AD5768C0011268C /* HistoryTableViewCell.swift in Sources */,
+				92203AA12AD578160011268C /* CardDetectionUtility.swift in Sources */,
 				92203A752AD574230011268C /* SceneDelegate.swift in Sources */,
+				92203AA52AD578160011268C /* ImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
